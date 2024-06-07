@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- 리스트뷰 항목 1-->
+    <RelativeLayout
+        android:id="@+id/listItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 이미지 -->
+        <ImageView
+            android:id="@+id/pillImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pill"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="8dp"
+            android:padding="10dp" />
+
+        <!-- 약 이름 + 용량과 증상 정보 -->
+        <RelativeLayout
+            android:id="@+id/pillInfo"
+            android:layout_toRightOf="@id/pillImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@id/pillImage"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/pillName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="4dp"
+                android:text="약 이름1 + 용량(mg)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/pillSymptom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pillName"
+                android:text="증상"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
