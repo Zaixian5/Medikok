@@ -4,7 +4,7 @@
 <hr>
 <h3>프로젝트 멤버</h3>
 <li>김창현(팀장): 풀스택 - Lunarian0928 (thanks092834@gmail.com) </li>
-<li>사재헌(본인): 프론트엔드 - SA JAEHEON (jls15900@gmail.com) </li>
+<li>사재헌(본인): 프론트엔드 - Zaixian5 (jls15900@gmail.com) </li>
 <li>박보현: 백엔드 - BBoMan (parksuga2001@gmail.com) </li>
 <li>이준혁: 백엔드 - visualnnz (mamlew0198@gmail.com) </li>
 <li>김윤태: 프론트 엔드 - mega-317 (mega31712@gmail.com) </li>
